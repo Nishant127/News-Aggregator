@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.abc {
+    margin-top:5%;
+    margin-left:20%;
+}
+
+.sp{
+    margin-bottom:10%;
+}
+
+.list{
+    position:fixed;
+    float:left;
+    margin-top: 0%;
+    margin-bottom: auto;
+    width:20% !important;
+}
+
+.news-list{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.card-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.2em;
+}
+
+.card-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:0.9em;
+}
+
+.oncat{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.oncat:hover{
+    background-color: #4285F4;
+    transform: scale(1.05);
+}
+
+.list-group-item {
+    margin:4%;
+}
+
+.card{
+    height:70%;
+}
