@@ -15,16 +15,18 @@ body {
 
 .sp{
     margin-bottom:10%;
+    position:relative;
 }
 
 .searchButton {
-    background: #EFEFEF !important;
-    color:black !important;
+    background: #0F9D58 !important;
+    color:white !important;
     font-weight:bold !important;
+    transition: 0.3s !important;
 }
 
 .searchButton:hover{
-    background-color: #0F9D58 !important;
+    transform: scale(1.05);
     color:white !important;
 }
 
@@ -47,12 +49,13 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     font-size:1em;
     font-weight:bold;
-    font-style:italic;
+
 }
 
 .card-text{
     font-family:Arial, Helvetica, sans-serif;
-    font-size:0.9em;
+    font-size:0.8em;
+    font-style:italic;
 }
 
 .oncat{
@@ -78,7 +81,7 @@ body {
 .card{
     height:90%;
     transition: 0.3s;
-    border: radius 0.2em;
+    border-radius: .2em !important;
 }
 
 .card:hover{
@@ -93,7 +96,24 @@ body {
 }
 
 .more {
-    text-align:end;
-    margin-left:-10px !important;
-    margin-bottom:-10px !important
+
 }
+
+.button {
+    background-color: #5290F5;
+    border: none;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    bottom: 0; 
+    right:3%;
+    font-size: .6em;
+    font-style: italic;
+    margin-bottom: 2%;
+    margin-top:2%;
+    cursor: pointer;
+    border-radius: 3%;
+  }
