@@ -43,6 +43,7 @@ function retrieve(e) {
             div.style.width = '15rem'
             let img = document.createElement('img')
             img.className = "card-img-top"
+            img.setAttribute('alt', '...')
             img.setAttribute('src', article.urlToImage)
             let div2 = document.createElement('div')
             div2.className = 'card-body'
@@ -53,6 +54,7 @@ function retrieve(e) {
             p.className = "card-text"
             p.textContent = desc + "..."
             let a = document.createElement('a');
+            a.className = 'more'
             a.style.textDecoration = 'none'
             a.setAttribute('href', article.url);
             a.setAttribute('target', '_blank');
