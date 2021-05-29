@@ -9,7 +9,7 @@ body {
  
 }
 
-.abc {
+.news-block {
     margin-top:5%;
     margin-left:16.5%;}
 
@@ -68,14 +68,14 @@ body {
 }
 
 .oncat:hover{
-    background-color: #0F9D58 !important;
-    color:white;
+
     transform: scale(1.05);
 }
 
 .list-group-item {
     margin:4%;
-    background: #DEDEDE !important;
+    background-color: #0F9D58 !important;
+    color:white !important;
 }
 
 .card{
@@ -93,10 +93,6 @@ body {
     font-weight:bold;
     color:white !important;
     font-size: 1.5em !important;
-}
-
-.more {
-
 }
 
 .button {
